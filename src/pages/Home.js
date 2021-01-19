@@ -1,9 +1,10 @@
 import React from 'react'
+import NewsList from './pagecomponents/NewsList';
 
 function Home() {
     return (
         <div className='Home'>
-            <h1>Home</h1>
+            <NewsList/>
         </div>
     )
 }
