@@ -3,7 +3,7 @@ import './News.css';
 
 function News({title, description, url, urlToImage}) {
     return (
-        <div className='news-item'>
+        <div className='news-item tc bg-green dib br3 pa3 ma2 grow bw2 shadow-5'>
             <img className='news-img' src={urlToImage} alt="News Images"/>
             <h3>
                 <a href={url}>
